@@ -19,24 +19,17 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>https://videostarapp.com/images/videostaricon.png</string>
-				</dict>
-				<dict>
-					<key>kind</key>
-					<string>full-size-image</string>
-					<key>needs-shine</key>
-					<true/>
-					<key>url</key>
-					<string>tv.shou.airshou.hello</string>
+					<string>http://www.seeyou-ios.tk/img/icon.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>ipa-apps.me.Unc0verbeta</string>				<key>bundle-version</key>
-				<string>7.4.1</string>
+				<string>science.xnu.undecimus</string>
 				<key>kind</key>
 				<string>software</string>
+				<key>subtitle</key>
+				<string>v1</string>
 				<key>title</key>
 				<string>VideoStar SeeYouIOS</string>
 			</dict>
