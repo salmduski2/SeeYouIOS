@@ -228,14 +228,75 @@
 </div>
 </div>
 </div>
+<script>
+    // Get input element
+    let filterInput = document.getElementById('filterInput');
+    // Add event listener
+    filterInput.addEventListener('keyup', filterNames);
+    function filterNames(){
+      // Get value of input
+      let filterValue = document.getElementById('filterInput').value.toUpperCase();
+      // Get names ul
+      let ul = document.getElementById('names');
+      // Get lis from ul
+      let li = ul.querySelectorAll('li.name-item');
+      // Loop through collection-item lis
+      for(let i = 0;i < li.length;i++){
+        let a = li[i].getElementsByTagName('a')[0];
+        // If matched
+        if(a.innerHTML.toUpperCase().indexOf(filterValue) > -1){
+          li[i].style.display = '';
+        }
+        else {
+          li[i].style.display = 'none';
+        }
+      }
+    }
+  </script>
 <script src="js/framework7.bundle.min.js">
   </script>
 <script src="js/routes.js">
   </script>
 <script src="js/app.js">
   </script>
+<script>
+    function timeSince(ts){
+        now = new Date();
+        ts = new Date(ts*1000);
+        var delta = now.getTime() - ts.getTime();
+
+        delta = delta/1000; //us to s
+
+        var ps, pm, ph, pd, min, hou, sec, days;
+
+        if(delta<=59){
+            ps = (delta>1) ? "s": "";
+            return Math.ceil(delta)+" second"+ps
+        }
+
+        if(delta>=60 && delta<=3599){
+            min = Math.ceil(Math.floor(delta/60));
+            pm = (min>1) ? "s": "";
+            ps = (sec>1) ? "s": "";
+            return min+" minute"+pm;
+        }
+        if(delta>=3598 && delta<=86400){
+            hour = Math.ceil(Math.floor(delta/3600));
+            pm = (hour>1) ? "s": "";
+            ps = (sec>1) ? "s": "";
+            return hour+" hour"+pm;
+        }
+
+    }
+  </script>
+<script>
+  function setTime(){
+    var x = "Apps Refreshed: " + timeSince(1622908741) + " ago";
+    document.getElementById("status").innerHTML = x;
+  }
+  </script>
 <body onload="setTime()">
-<script defer src="beacon.min.js" data-cf-beacon='{"rayId":"65aa9e6bfe8f4aa4","version":"2021.5.2","r":1,"token":"ddf4794948754c89aa01cbda856c563b","si":10}'></script>
+<script defer src="../static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"65aa9e6bfe8f4aa4","version":"2021.5.2","r":1,"token":"ddf4794948754c89aa01cbda856c563b","si":10}'></script>
 </body>
 </body>
 
