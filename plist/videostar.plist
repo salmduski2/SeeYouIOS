@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/video-star_20210610/Video%20Star.ipa</string>
+					<string>https://archive.org/download/video-star_20210610_1642/Video%20Star.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -19,7 +19,7 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>http://www.seeyou-ios.tk/apps/video.png</string>
+					<string>https://videostarapp.com/images/videostaricon.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
