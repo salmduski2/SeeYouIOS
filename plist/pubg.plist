@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -16,8 +17,12 @@
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
-					<key>needs-shine</key>
-					<true/>
+					<key>url</key>
+					<string>https://ia601501.us.archive.org/26/items/icon_20210610/icon.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
 					<key>url</key>
 					<string>https://ia601501.us.archive.org/26/items/icon_20210610/icon.png</string>
 				</dict>
@@ -25,15 +30,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>science.xnu.undecimus</string>
+				<string>rebo.kurd.pubg hack</string>
+				<key>bundle-version</key>
+				<string>7.0.0</string>
 				<key>kind</key>
 				<string>software</string>
-				<key>subtitle</key>
-				<string>v1</string>
 				<key>title</key>
-								<string>
- Pubg Hack NoJB 
-✔️ SeeYouIOS ✔️</string>
+				<string>⚡Pubg Hack⚡ ⚡SeeYouIOS⚡</string>
 			</dict>
 		</dict>
 	</array>
