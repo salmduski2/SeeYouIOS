@@ -18,7 +18,7 @@
             <key>PayloadDisplayName</key>
             <string>SeeYouIOS‌</string>
             <key>PayloadIdentifier</key>
-            <string>seeyouios.com‌</string>
+            <string>com.seeyou-ios.</string>
             <key>PayloadOrganization</key>
             <string>SeeYouIOS‌‌</string>
             <key>PayloadType</key>
@@ -38,7 +38,7 @@
     <key>PayloadDisplayName</key>
     <string>SeeYouIOS</string>
     <key>PayloadIdentifier</key>
-    <string>seeyouios.com</string>
+    <string>com.seeyou-ios.</string>
     <key>PayloadOrganization</key>
     <string>SeeYouIOS</string>
     <key>PayloadRemovalDisallowed</key>
